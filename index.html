@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRF January 2025 Batch - Exam 01</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- linkjQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Slick-Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Slick-Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwindcss -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">  
+</head>
+<body>
+    
+    <!-- Header -->
+
+    <div class="relative">
+
+        <input class="hidden" type="checkbox" name="" id="navbar">
+
+    
+        <div class="dropdowns flex items-center max-lg:absolute w-full h-0 overflow-hidden top-[105px] right-0 bg-[#fc3314]/10 backdrop-blur-[50px] shadow-[0px_10px_20px_rgba(0,0,0,0.1)] px-10 z-100 max-md:top-[71px] max-md:px-6 transition-all duration-300 lg:hidden">
+
+            <ul class="flex m-auto text-white uppercase flex-col gap-6 text-[20px] font-bold max-md:text-[16px] max-md:gap-4 max-lg:flex-col max-lg:items-center">
+                <li><a class="hover:italic" href="#about_section">About</a></li>
+                <li><a class="hover:italic" href="#services_section">Services</a></li>
+                <li><a class="hover:italic" href="#portfolio_section">Portfolio</a></li>
+                <li><a class="hover:italic" href="#blog_section">Blog</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="w-full bg-[#FFD4D0] px-6 overflow-x-hidden max-lg:px-5 max-lg:border-b border-white/40 max-md:px-3">
+
+        <div class="max-w-[1200px] m-auto flex items-center justify-between gap-5 py-10 relative max-lg:py-7 max-md:py-3">
+            <img class="absolute top-0 left-79 max-lg:w-[100px] max-lg:left-1/2 max-lg:-translate-x-1/2 max-md:left-2/2 max-md:-ml-4" src="./assets/images/background-circle.svg" alt="circle">
+
+            <div class="w-[25%] max-md:w-[50%]"><a href="#"><img class="w-[136px] z-0" src="./assets/images/site-logo/rrf-logo.svg" alt="rrf-logo"></a></div>
+
+            <div class="w-[50%] flex justify-center z-10 max-md:justify-end max-md:w-[50%]">
+
+
+                <label for="navbar" class="icons z-20">
+                    <img class="w-[40px] max-md:w-[37px] lg:hidden cursor-pointer" id="menu_icon" src="./assets/images/menu-line.svg" alt="menu">
+                </label>
+                
+
+                <ul class="flex gap-8 text-[18px] font-bold max-lg:hidden">
+                    <li><a class="hover:italic" href="#about_section">About</a></li>
+                    <li><a class="hover:italic" href="#services_section">Services</a></li>
+                    <li><a class="hover:italic" href="#portfolio_section">Portfolio</a></li>
+                    <li><a class="hover:italic" href="#blog_section">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="w-[25%] flex justify-end z-10 max-md:hidden"> <a class="bg-[#1F1F1F] py-3 px-6 text-white font-bold duration-300 hover:bg-[#fc3314]" href="#">Let’s Talk</a> </div>
+
+        </div>
+
+    </div>
+
+    <!-- Hero -->
+
+    <div class="w-full bg-[#FFD4D0] px-6 max-lg:px-5 max-md:px-3">
+
+        <div class="max-w-[1200px] m-auto flex items-end gap-6 max-lg:flex-wrap max-lg:pt-16">
+
+            <div class="w-[40%] text-start flex flex-col gap-4 pb-19  max-lg:w-[100%] max-lg:pb-10 max-lg:gap-3 max-lg:text-center max-lg:items-center">
+
+                <p class="text-[20px]">UX Designer</p>
+
+                <h1 class="text-[48px] font-bold text-[#1F1F1F] max-lg:text-[45px] max-md:text-[40px] max-md:leading-[50px]">Hi There, I’m <br> <span class="text-[#FC3314]">John Smith</span></h1>
+
+                <p class="description max-lg:max-w-[550px] max-md:max-w-[450px]">Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
+
+                <div class="mt-8 flex gap-5 max-lg:mt-4 max-md:gap-4">
+                    <a class="inline-block bg-[#1F1F1F] py-3 px-12 text-white font-bold border border-[#1F1F1F] duration-300 hover:bg-[#fc3314] hover:border-[#fc3314] max-lg:px-10 max-md:text-[15px] max-md:px-9" href="#">Hire Me</a>
+
+                    <a class="inline-block bg-[#FFD4D0] py-3 px-12 font-bold border border-[#1F1F1F] duration-300 hover:bg-[#1F1F1F] hover:text-white max-lg:px-10 max-md:text-[15px] max-md:px-9" href="#">Let’s Talk</a>
+                </div>
+            </div>
+
+            <div class="w-[60%] flex items-end justify-center mt-9 min-h-[487px] max-lg:w-[100%] max-lg:mt-2 max-md:mt-1  max-lg:min-h-auto">
+                <img class="max-lg:w-[450px]" src="./assets/images/banner.webp" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- About Me -->
+
+    <div id="about_section" class="w-full bg-[#1F1F1F] pt-16 px-6 max-lg:px-5 max-md:pt-10 max-md:px-3">
+
+        <div class="max-w-[1200px] m-auto pb-20 relative">
+            <img class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[230px] max-md:w-[200px]" src="./assets/images/about-background-circle.svg" alt="circle">
+
+
+            <div class="flex flex-col items-center gap-6 max-w-[810px] m-auto max-md:gap-3">
+                <h2 class="text-white heading">About Me</h2>
+                <p class="text-white description">I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
+            </div>
+
+            <div class="flex max-w-[900px] justify-between gap-4 mt-10 m-auto max-lg:max-w-[700px] max-md:max-w-[500px]">
+
+                <div>
+                    <h3 class="text-[#FFD4D0] text-[64px] font-bold leading-[90px] max-lg:text-[40px] max-lg:leading-[60px] max-md:text-[28px] max-md:leading-[40px]">502</h3>
+                    <p class="text-white text-[18px] font-bold max-lg:text-[16px] max-md:text-[11px]">Projects Done</p>
+                </div>
+                <div>
+                    <h3 class="text-[#FFD4D0] text-[64px] font-bold  leading-[90px] max-lg:text-[40px] max-lg:leading-[60px] max-md:text-[28px] max-md:leading-[40px]">10+</h3>
+                    <p class="text-white text-[18px] font-bold max-lg:text-[16px] max-md:text-[11px]">Years of Experience</p>
+                </div>
+                <div>
+                    <h3 class="text-[#FFD4D0] text-[64px] font-bold leading-[90px] max-lg:text-[35px] max-lg:leading-[60px] max-md:text-[28px] max-md:leading-[40px]">273+</h3>
+                    <p class="text-white text-[18px] font-bold max-lg:text-[16px] max-md:text-[11px]">Clients Served</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Services -->
+
+    <div id="services_section" class="w-full bg-white py-16 px-6 max-lg:px-5 max-md:px-3 max-md:py-12" >
+
+        <div class="max-w-[1200px] m-auto flex flex-col items-center">
+
+            <div class="max-w-[810px] flex flex-col gap-6 max-md:gap-3">
+                <h2 class="heading">Services</h2>
+                <p class="description">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+            </div>
+
+            <div class="flex gap-8 pt-8 max-lg:flex-wrap max-lg:justify-between max-md:gap-6 max-md:pt-12">
+
+                <div class="w-[25%] text-start flex flex-col gap-6 p-4 max-lg:w-[45%] max-lg:gap-5 max-md:w-[100%]  max-md:bg-[#f7f7f7] max-md:p-6">
+                    <img class="w-[47px] max-md:w-[40px]" src="./assets/images/icons/Design.png" alt="Design">
+                    <h3 class="text-[18px] font-bold">Design</h3>
+                    <p class="text-[14px] max-lg:-mt-3">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
+                </div>
+
+                <div class="w-[25%] text-start flex flex-col gap-6 p-4 max-lg:w-[45%] max-lg:gap-5 max-md:w-[100%] max-md:bg-[#f7f7f7] max-md:p-6">
+                    <img class="w-[88px] max-lg:w-[70px] max-md:w-[50px]" src="./assets/images/icons/Branding.svg" alt="Branding">
+                    <h3 class="text-[18px] font-bold">Branding</h3>
+                    <p class="text-[14px] max-lg:-mt-3">I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>
+                </div>
+
+                <div class="w-[25%] text-start flex flex-col gap-6 p-4 max-lg:w-[45%] max-lg:gap-5 max-md:w-[100%] max-md:bg-[#f7f7f7] max-md:p-6">
+                    <img class="w-[54px] max-md:w-[40px]" src="./assets/images/icons/UX Research.svg" alt="Research">
+                    <h3 class="text-[18px] font-bold">UX Research</h3>
+                    <p class="text-[14px] max-lg:-mt-3">"I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products.</p>
+                </div>
+
+                <div class="w-[25%] text-start flex flex-col gap-6 p-4 max-lg:w-[45%] max-lg:gap-5 max-md:w-[100%] max-md:bg-[#f7f7f7] max-md:p-6">
+                    <img class="w-[54px] max-md:w-[40px]" src="./assets/images/icons/Usability Testing.svg" alt="Usability">
+                    <h3 class="text-[18px] font-bold">Usability Testing</h3>
+                    <p class="text-[14px] max-lg:-mt-3">I perform usability testing and optimize designs websites based on real-user feedback for seamless interactions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Portfolio -->
+
+    <div id="portfolio_section" class="w-full bg-gradient-to-b from-[#FFD4D0] from-34% to-[#F7F7F7] to-0% pt-[50px] pb-16 px-6 max-lg:px-5 max-md:px-3 max-md:pb-[50px]">
+
+        <div class="max-w-[1200px] m-auto flex flex-col gap-12 items-center">
+
+            <div class="max-w-[810px] flex flex-col gap-5 max-md:gap-3">
+                <h2 class="heading text-[#1F1F1FD9]">My Portfolio</h2>
+                <p class="description">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+            </div>
+
+            <div class="w-full flex flex-wrap gap-x-10 gap-y-16 justify-between max-md:gap-y-10">
+
+                <div class="w-[29.5%] flex flex-col gap-8 max-lg:w-[47%] max-lg:gap-5 max-md:w-[100%]">
+                    <img class="w-[100%] h-[198px] object-cover object-center" src="./assets/images/portfolio/Educational Platform.webp" alt="Portfolio">
+
+                    <div class="flex justify-between items-end text-start gap-2">
+
+                        <div class="flex flex-col gap-4 max-lg:gap-2">
+                            <h3 class="text-[20px] font-bold max-lg:text-[18px] max-md:text-[17px]">Educational Platform</h3>
+                            <p class="text-[14px]">Web Design / Usability Testing</p>
+                        </div>
+
+                        <div class="min-w-[38px]">
+                            <a href="#"><img class="w-[38px] p-[8px] bg-[#FC3314] rounded-full duration-300 hover:bg-[#1F1F1F]" src="./assets/images/icons/arrow.svg" alt=""></a>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[29.5%] flex flex-col gap-8 max-lg:w-[47%] max-lg:gap-5 max-md:w-[100%]">
+                    <img class="w-[100%] h-[198px] object-cover object-center" src="./assets/images/portfolio/Travel App Design.webp" alt="Portfolio">
+
+                    <div class="flex justify-between items-end text-start gap-2">
+
+                        <div class="flex flex-col gap-4 max-lg:gap-2">
+                            <h3 class="text-[20px] font-bold max-lg:text-[18px] max-md:text-[17px]">Travel App Design</h3>
+                            <p class="text-[14px]">UX Research / App Design </p>
+                        </div>
+
+                        <div class="min-w-[38px]">
+                            <a href="#"><img class="w-[38px] p-[8px] bg-[#FC3314] rounded-full duration-300 hover:bg-[#1F1F1F]" src="./assets/images/icons/arrow.svg" alt=""></a>    
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="w-[29.5%] flex flex-col gap-8 max-lg:w-[47%] max-lg:gap-5 max-md:w-[100%]">
+                    <img class="w-[100%] h-[198px] object-cover object-center" src="./assets/images/portfolio/Personal Page.webp" alt="Portfolio">
+
+                    <div class="flex justify-between items-end text-start gap-2">
+
+                        <div class="flex flex-col gap-4 max-lg:gap-2">
+                            <h3 class="text-[20px] font-bold max-lg:text-[18px] max-md:text-[17px]">Personal Page</h3>
+                            <p class="text-[14px]">Web Design</p>
+                        </div>
+
+                        <div>
+                            <a href="#"><img class="w-[38px] p-[8px] bg-[#FC3314] rounded-full duration-300 hover:bg-[#1F1F1F]" src="./assets/images/icons/arrow.svg" alt=""></a>    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-[29.5%] flex flex-col gap-8 max-lg:w-[47%] max-lg:gap-5 max-md:w-[100%]">
+                    <img class="w-[100%] h-[198px] object-cover object-center" src="./assets/images/portfolio/Furniture Mobile App.webp" alt="Portfolio">
+
+                    <div class="flex justify-between items-end text-start gap-2">
+
+                        <div class="flex flex-col gap-4 max-lg:gap-2">
+                            <h3 class="text-[20px] font-bold max-lg:text-[18px] max-md:text-[17px]">Furniture Mobile App</h3>
+                            <p class="text-[14px]">App Design </p>
+                        </div>
+
+                        <div class="min-w-[38px]">
+                            <a href="#"><img class="w-[38px] p-[8px] bg-[#FC3314] rounded-full duration-300 hover:bg-[#1F1F1F]" src="./assets/images/icons/arrow.svg" alt=""></a>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[29.5%] flex flex-col gap-8 max-lg:w-[47%] max-lg:gap-5 max-md:w-[100%]">
+                    <img class="w-[100%] h-[198px] object-cover object-center" src="./assets/images/portfolio//Coffee House Landing Page.webp" alt="Portfolio">
+
+                    <div class="flex justify-between items-end text-start gap-2">
+
+                        <div class="flex flex-col gap-4 max-lg:gap-2">
+                            <h3 class="text-[20px] max-lg:text-[18px] font-bold max-md:text-[17px]">Coffee House Landing Page</h3>
+                            <p class="text-[14px]">UX Research / Web Design </p>
+                        </div>
+
+                        <div class="min-w-[38px]">
+                            <a href="#"><img class="w-[38px] p-[8px] bg-[#FC3314] rounded-full duration-300 hover:bg-[#1F1F1F]" src="./assets/images/icons/arrow.svg" alt=""></a>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[29.5%] flex flex-col gap-8 max-lg:w-[47%] max-lg:gap-5 max-md:w-[100%]">
+                    <img class="w-[100%] h-[198px] object-cover object-center" src="./assets/images/portfolio/Home Services Page.webp" alt="Portfolio">
+
+                    <div class="flex justify-between items-end text-start gap-2">
+
+                        <div class="flex flex-col gap-4 max-lg:gap-2">
+                            <h3 class="text-[20px] font-bold max-lg:text-[18px] max-md:text-[17px]">Home Services Page</h3>
+                            <p class="text-[14px]">Web Design / Marketing</p>
+                        </div>
+
+                        <div class="min-w-[38px]">
+                            <a href="#"><img class="w-[38px] p-[8px] bg-[#FC3314] rounded-full duration-300 hover:bg-[#1F1F1F]" src="./assets/images/icons/arrow.svg" alt=""></a>    
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Design Skills -->
+
+<div class="w-full bg-[#F7F7F7] py-[90px] px-6 max-lg:px-5 max-md:px-3 max-md:py-[50px] max-md:border-t border-black/10">
+
+        <div class="max-w-[1200px] m-auto">
+
+            <div class="flex flex-col gap-6 max-w-[810px] m-auto max-md:gap-3">
+                <h2 class="heading">Core Design Skills</h2>
+                <p class="description">I excel in essential design skills, creating visually stunning and functional digital experiences. From UI design to UX research, my passion is to craft effective and memorable digital solutions.</p>
+            </div>
+
+            <div class="max-w-[1064px] flex gap-[120px] mt-16 mx-auto max-md:flex-wrap max-md:gap-3 max-md:mt-12 max-md:pb-5">
+
+                <div class="w-[50%] flex flex-col gap-2 max-md:w-[100%] max-md:gap-3">
+
+                    <div class="flex flex-col gap-2 max-md:gap-1">
+
+                        <h3 class="text-start font-bold font-4">Interaction Design</h3>
+                        <div class="w-[100%] flex items-center gap-4">
+                            <div class="h-[6px] max-md:h-[4px] w-[100%]  bg-[linear-gradient(to_right,_#1F1F1F_80%,_#E1E1E1_0%)]"></div>
+                            <h4 class="font-bold font-4">60%</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col gap-2 max-md:gap-1">
+
+                        <h3 class="text-start font-bold font-4">Usability Testing</h3>
+                        <div class="w-[100%] flex items-center gap-4">
+                            <div class="h-[6px] max-md:h-[4px] w-[100%]  bg-[linear-gradient(to_right,_#1F1F1F_70%,_#E1E1E1_0%)]"></div>
+                            <h4 class="font-bold font-4">70%</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col gap-2 max-md:gap-1">
+
+                        <h3 class="text-start font-bold font-4">User Research</h3>
+                        <div class="w-[100%] flex items-center gap-4">
+                            <div class="h-[6px] max-md:h-[4px] w-[100%]  bg-[linear-gradient(to_right,_#1F1F1F_50%,_#E1E1E1_0%)]"></div>
+                            <h4 class="font-bold font-4">45%</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="w-[50%] flex flex-col gap-2 max-md:w-[100%] max-md:gap-3">
+
+                    <div class="flex flex-col gap-2 max-md:gap-1">
+
+                        <h3 class="text-start font-bold font-4">Figma</h3>
+                        <div class="w-[100%] flex items-center gap-4">
+                            <div class="h-[6px] max-md:h-[4px] w-[100%]  bg-[linear-gradient(to_right,_#1F1F1F_95%,_#E1E1E1_0%)]"></div>
+                            <h4 class="font-bold font-4">95%</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col gap-2 max-md:gap-1">
+
+                        <h3 class="text-start font-bold font-4">Prototyping</h3>
+                        <div class="w-[100%] flex items-center gap-4">
+                            <div class="h-[6px] max-md:h-[4px] w-[100%]  bg-[linear-gradient(to_right,_#1F1F1F_80%,_#E1E1E1_0%)]"></div>
+                            <h4 class="font-bold font-4">80%</h4>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-col gap-2 max-md:gap-1">
+
+                        <h3 class="text-start font-bold font-4">Information Architecture</h3>
+                        <div class="w-[100%] flex items-center gap-4">
+                            <div class="h-[6px] max-md:h-[4px] w-[100%]  bg-[linear-gradient(to_right,_#1F1F1F_50%,_#E1E1E1_0%)]"></div>
+                            <h4 class="font-bold font-4">50%</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Testemonials -->
+
+    <div class="w-full bg-[#FFD4D0] pb-16 px-6 max-lg:px-5 max-md:px-3 max-md:pb-13">
+
+        <div class="max-w-[1200px] pt-[90px] mx-auto relative">
+        <img class="absolute w-[122px] top-0 left-1/2 -translate-x-1/2" src="./assets/images/testemonials-background-circle.svg" alt="circle">
+
+        <div class="mb-8">
+            <h2 class="heading">Testemonials</h2>
+        </div>
+
+        <script>
+            $(document).ready(function(){
+              $('.carousel_main').slick({
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<button class=" w-[11px] cursor-pointer absolute top-[50px] right-[98%] z-100"><img class=" w-[11px]" src="assets/images/left.svg" alt="Prev"></button>',
+
+                nextArrow: '<button class=" w-[11px] cursor-pointer absolute top-[50px] right-[0%] z-100"><img class=" w-[11px]" src="assets/images/right.svg" alt="Next"></button>',
+              });
+            });
+        </script>
+
+        <div class="carousel_main max-w-[1050px] m-auto">
+
+
+            
+            <div class="max-w-[770px] flex flex-col items-center m-auto max-lg:px-12 max-md:px-10">
+                <p class="description">Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+                <div class="flex gap-4 items-center justify-center max-md:flex-col max-md:gap-3 mt-8">
+                    <img class="w-[70px] max-lg:w-[60px] max-md:w-[50px]" src="./assets/images/Image-test.png" alt="Testemonials">
+                    <p class="description"><span class="font-bold">John Smith</span> / CEO of XYZ Company</p>
+                </div>
+            </div>
+        
+
+            <div class="max-w-[770px] flex flex-col items-center m-auto max-lg:px-12 max-md:px-10">
+                <p class="description">Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+                <div class="flex gap-4 items-center justify-center max-md:flex-col max-md:gap-3 mt-8">
+                    <img class="w-[70px] max-lg:w-[60px] max-md:w-[50px]" src="./assets/images/Image-test.png" alt="Testemonials">
+                    <p class="description"><span class="font-bold">John Smith</span> / CEO of XYZ Company</p>
+                </div>
+            </div>
+        
+
+            <div class="max-w-[770px] flex flex-col items-center m-auto max-lg:px-12 max-md:px-10">
+                <p class="description">Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+                <div class="flex gap-4 items-center justify-center max-md:flex-col max-md:gap-3 mt-8">
+                    <img class="w-[70px] max-lg:w-[60px] max-md:w-[50px]" src="./assets/images/Image-test.png" alt="Testemonials">
+                    <p class="description"><span class="font-bold">John Smith</span> / CEO of XYZ Company</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <!-- Blog -->
+
+    <div id="blog_section" class="w-full bg-[#F7F7F7] py-[90px] px-6 max-lg:px-5 max-md:px-3 max-lg:py-[60px] max-md:py-[50px]">
+
+        <div class="max-w-[1200px] mx-auto">
+
+
+            <div class="max-w-[800px] mb-13 mx-auto flex flex-col gap-4 max-md:gap-3">
+                <h2 class="heading">Design Insights and Inspiration</h2>
+                <p class="description">Discover industry insights, expert tips, and design inspiration. Stay updated with the latest trends in web design and user experience.</p>
+            </div>
+
+            <div class="text-start flex gap-22 max-lg:gap-12 max-lg:flex-wrap max-lg:justify-between max-md:gap-8">
+
+                <div class="w-[33%] flex flex-col gap-8 bg-white duration-300 hover:shadow-[0_20px_45px_-20px_rgba(0,0,0,0.2)] max-lg:w-[46.5%] max-md:w-[100%]">
+
+                    <img class="w-[100%] h-[202px] object-cover object-center" src="./assets/images/blog-img/Typography Tips for Design Success.webp" alt="Blog-img">
+
+                    <div class="px-4 pb-4 flex flex-col gap-4 h-[100%] justify-between items-start">
+
+                        <div class="flex flex-col gap-2">
+                            <p class="text-3">August 15, 2023 / UX</p>
+                            <h3 class="text-4 font-bold">Typography Tips for Design Success</h3>
+                            <p class="text-[14px]">Dive into the world of web typography and discover how to choose, pair, and optimize fonts for compelling and readable digital designs.</p>
+                        </div>
+
+                        <a class="flex font-bold text-[12px] gap-2" href="#">Read More <img class="w-4" src="./assets/images/icons/arrow-right.svg" alt="arrow"></a>
+                        
+                    </div>
+
+                </div>
+
+                <div class="w-[33%] flex flex-col gap-8 bg-white bg-white duration-300 hover:shadow-[0_20px_45px_-20px_rgba(0,0,0,0.2)] max-lg:w-[46.5%] max-md:w-[100%]">
+
+                    <img class="w-[100%] h-[202px] object-cover object-center" src="./assets/images/blog-img/Color Psychology in UX.webp" alt="Blog-img">
+
+                    <div class="px-4 pb-4 flex flex-col gap-4 h-[100%] justify-between items-start">
+
+                        <div class="flex flex-col gap-2">
+                            <p class="text-3">August 15, 2023 / UX</p>
+                            <h3 class="text-4 font-bold">Typography Tips for Design Success</h3>
+                            <p class="text-[14px]">Explore how color choices impact user emotions and decision-making in UX design.p>
+                        </div>
+
+                        <a class="flex font-bold text-[12px] gap-2" href="#">Read More <img class="w-4" src="./assets/images/icons/arrow-right.svg" alt="arrow"></a>
+                        
+                    </div>
+
+                </div>
+
+                <div class="w-[33%] flex flex-col gap-8 bg-white bg-white duration-300 hover:shadow-[0_20px_45px_-20px_rgba(0,0,0,0.2)] max-lg:w-[46.5%] max-md:w-[100%]">
+
+                    <img class="w-[100%] h-[202px] object-cover object-center" src="./assets/images/blog-img/Boosting UX with Microinteractions.webp" alt="Blog-img">
+
+                    <div class="px-4 pb-4 flex flex-col gap-4 h-[100%] justify-between items-start">
+
+                        <div class="flex flex-col gap-2">
+                            <p class="text-3">August 15, 2023 / UX</p>
+                            <h3 class="text-4 font-bold">Typography Tips for Design Success</h3>
+                            <p class="text-[14px]">Discover the power of microinteractions in enhancing user experience and engagement.</p>
+                        </div>
+
+                        <a class="flex font-bold text-[12px] gap-2" href="#">Read More <img class="w-4" src="./assets/images/icons/arrow-right.svg" alt="arrow"></a>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Get in Touch -->
+
+    <div class="w-full bg-[#FFD4D0] py-[124px] px-6 max-lg:px-5 max-md:px-3 max-lg:py-[60px] max-md:py-[50px]">
+
+        <div class="max-w-[1200px] mx-auto flex gap-[60px] max-lg:flex-col max-lg:gap-[50px] max-md:gap-[45px]">
+
+            <div class="w-[50%] text-start flex flex-col justify-between gap-16 max-lg:w-[80%] max-lg:gap-8 max-md:w-[100%] max-md:gap-6">
+
+                <div class="flex flex-col gap-16 max-lg:gap-8 max-md:gap-6">
+
+                    <div class="flex flex-col gap-4 max-md:gap-3">
+                        <h2 class="heading max-md:-mt-[10px]">Get in Touch</h2>
+                        <p class="description">Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
+                    </div>
+    
+    
+                    <div class="flex flex-col gap-8 max-lg:gap-6">
+    
+                        <div class="flex gap-4 max-lg:gap-3">
+                            <img class="w-[24px]" src="./assets/images/icons/phone.svg" alt="phone"> <p class="description">+1205 5872 321</p>
+                        </div>
+    
+                        <div class="flex gap-4 max-lg:gap-3">
+                            <img class="w-[24px]" src="./assets/images/icons/email.svg" alt="phone"> <p class="description"> contact@sarajonesdesign.com</p>
+                        </div>
+    
+                        <div class="flex gap-4 max-lg:gap-3">
+                            <img class="w-[24px]" src="./assets/images/icons/map.svg" alt="phone"> <p class="description">1234 Design Street,Creativeville, Webland,Imaginary State, 98765</p>
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                <div class="flex gap-6 max-lg:gap-4">
+
+                    <a href="#"><img class="w-[30px] h-[30px] rounded-full hover:border border-[#1f1f1f]" src="./assets/images/social-icon/x.svg" alt="social_icon"></a>
+
+                    <a href="#"><img class="w-[30px] h-[30px] rounded-full hover:border border-[#1f1f1f]" src="./assets/images/social-icon/Instagram.svg" alt="social_icon"></a>
+
+                    <a href="#"><img class="w-[30px] h-[30px] rounded-full hover:border border-[#1f1f1f]" src="./assets/images/social-icon/facebook.svg" alt="social_icon"></a>
+
+                    <a href="#"><img class="w-[30px] h-[30px] rounded-full hover:border border-[#1f1f1f]" src="./assets/images/social-icon/dribbble.svg" alt="social_icon"></a>
+
+                </div>
+
+            </div>
+
+            <div class="w-[50%] max-lg:w-[100%]">
+
+                <form class="flex flex-col items-start gap-8 max-lg:gap-6" action="">
+
+                    <div class=" w-full flex flex-col gap-6 outline-none text-[14px] text-[#8D8D8D] max-lg:gap-4">
+                        <input class="py-[14px] px-[16px] bg-white" type="text" placeholder="First name">
+                        <input class="py-[14px] px-[16px] bg-white" type="email" placeholder="Email">
+                        <input class="py-[14px] px-[16px] bg-white" type="tel" placeholder="Phone number">
+                        <textarea class="py-[14px] px-[16px] bg-white min-h-[168px] max-md:min-h-[120px]" name="" id="" placeholder="Your message"></textarea>
+                    </div>
+
+                    <button type="submit" class="cursor-pointer py-3 px-[56px] text-white font-bold bg-[#1F1F1F] text-[16px] duration-300 hover:bg-[#fc3314] max-lg:px-[46px] max-md:text-[15px]">Send Message</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="w-full bg-[#1F1F1F] py-20 px-6 max-lg:px-5 max-md:px-3 max-md:py-12">
+
+            <div class="max-w-[765px] m-auto flex flex-col gap-16 max-md:gap-5">
+
+                <div class="flex justify-between items-center gap-6 max-md:flex-col max-md:gap-5">
+
+                    <ul class="flex text-white font-bold text-[20px] gap-8 max-md:hidden">
+                        <li><a class="hover:text-[#FC3314] duration-200" href="#about_section">About</a></li>
+                        <li><a class="hover:text-[#FC3314] duration-200" href="#services_section">Services</a></li>
+                    </ul>
+
+                    <a href="#"><img class="w-[163px] max-md:w-[140px]" src="./assets/images/site-logo/rrf-logo-2.png" alt="rrf-logo"></a>
+
+                    <ul class="flex text-white font-bold text-[20px] gap-8 max-md:hidden">
+                        <li><a class="hover:text-[#FC3314] duration-200" href="#portfolio_section">Portfolio</a></li>
+                        <li><a class="hover:text-[#FC3314] duration-200" href="#blog_section">Blog</a></li>
+                    </ul>
+
+                    <ul class="flex text-white font-bold text-[15px] gap-5 md:hidden">
+                        <li><a class="hover:text-[#FC3314] duration-200" href="#about_section">About</a></li>
+                        <li><a class="hover:text-[#FC3314] duration-200" href="#services_section">Services</a></li>
+                        <li><a class="hover:text-[#FC3314] duration-200" href="#portfolio_section">Portfolio</a></li>
+                        <li><a class="hover:text-[#FC3314] duration-200" href="#blog_section">Blog</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="flex flex-col items-center gap-8 max-md:gap-5">
+
+                    <h3 class="description text-white">Follow me on social media:</h3>
+
+                    <div class="flex gap-8 max-md:gap-5">
+
+                        <a href="#"><img src="./assets/images/social-icon/Instagram-white.svg" alt="Instagram"></a>
+                        <a href="#"><img src="./assets/images/social-icon/twitter-white.svg" alt="Twitter"></a>
+                        <a href="#"><img src="./assets/images/social-icon/dribbble-white.svg" alt="Dribbble"></a>
+                        <a href="#"><img src="./assets/images/social-icon/facebook-white.svg" alt="Facebook"></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+
+</body>
+</html>
